@@ -3,18 +3,40 @@
 font-family: 'Mulish', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Mulish:wght@400;600;700&family=Open+Sans:wght@400;500&family=Playfair+Display:ital,wght@1,600&display=swap');
-/*
-font-family: 'Playfair Display', serif;*/
+/*font-family: 'Playfair Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+/*font-family: 'IBM Plex Sans', sans-serif;*/
 
 * { 
-
 	box-sizing : border-box; 
 	margin : 0px;
 	padding : 0px;
 }
-.body {
-   /* background-image: url('img/descarga.png');*/
+.menu {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex; /* Cambia el diseño a flexbox */
+    justify-content: space-around;
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+    background-color: black;
 }
+.menu a {
+    text-decoration: none;
+    color: #e90e0e; 
+    font-weight: bold;
+
+}
+/* Selector del elemento al que le asignarás la imagen de fondo */
+.body {
+  
+    /* Puedes ajustar el tamaño de la imagen */
+    background-size: cover;
+
+    /* Otras propiedades opcionales */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    /* Puedes agregar más propiedades según tus necesidades */
+}
+
 .header {
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -22,17 +44,25 @@ font-family: 'Playfair Display', serif;*/
     padding: 10px;
     
 }
-.nav {
-    background-color: red;
-    font-family: 'Open Sans', sans-serif;
+
+.aside {
+
+    width: 50%;
+    height: 50%;    
 }
 .h2{
+    color: white;
     font-family: 'Playfair Display', serif;
 }
 .p{
+    color: white;
     font-family: 'Open Sans', sans-serif;
 }
+.section {
+    color: whitesmoke;
+}
 .img1 {
-    width: 15%;
-         
+    width: 20%;
+    height: 30%;
+    float: right;
 }

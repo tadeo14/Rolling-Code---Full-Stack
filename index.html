@@ -15,15 +15,22 @@
     <!-- Enlace a tu archivo CSS para aplicar estilos personalizados -->
     
 </head>
-<body class="body">
+<body class="body" 
+    style="background-image: url(css/img/descarga.png);">
     <header class="header">
         <h1 class="h1">Tadeo Acosta</h1>
         <p class="p">Estudiante rolling code</p>
     </header>
     <hr><!--Aqui describo toda mi vida.-->
-    <nav class="nav">
-        <h2 class="h2">menu</h2>
-    </nav>
+    
+    <nav >
+         <ul class ="menu">
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li> 
+            <li><a href="#contacto">Contacto</a></li>               
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>    
     <hr>
     <main class="main">
         <h2 class="h2">Sobre Mí</h2>
@@ -46,8 +53,8 @@
             Además de Python, también estoy explorando otros lenguajes y tecnologías, como HTML, CSS y JavaScript,
              para desarrollar mis habilidades en el desarrollo web. <br><br> Estoy abierto a aprender y crecer en diferentes áreas de la programación, ya que entiendo que la industria está en constante evolución.</p>
     </main>
-    <aside>
-        <iframe width="500" height="280"
+    <aside class="aside">
+        <iframe 
                 src="https://www.youtube.com/embed/MJIz2gf3Wa8" frameborder="0"
                 allowfullscreen>
         </iframe>
@@ -55,7 +62,18 @@
     <hr>
     <section class="section">
         <h2 class="h2">Formulario</h2>
-        <form action="">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
 
         </form>
     </section>
