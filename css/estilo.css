@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Mulish:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap');
+/*font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Mulish:wght@400;600;700&family=Open+Sans:wght@400;500&family=Playfair+Display:ital,wght@1,600&display=swap');
+/*
+font-family: 'Playfair Display', serif;*/
+
+* { 
+
+	box-sizing : border-box; 
+	margin : 0px;
+	padding : 0px;
+}
+.body {
+   /* background-image: url('img/descarga.png');*/
+}
+.header {
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: rgba(0, 128, 0, 0.6);
+    padding: 10px;
+    
+}
+.nav {
+    background-color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+.h2{
+    font-family: 'Playfair Display', serif;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+}
 .img1 {
     width: 15%;
          
