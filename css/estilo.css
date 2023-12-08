@@ -19,12 +19,14 @@ font-family: 'Open Sans', sans-serif; */
     padding: 0; /* Quita el relleno predeterminado de la lista */
     background-color: black;
 }
-.menu a {
+.menu a  {
     text-decoration: none;
-    color: #e90e0e; 
+    color: white; 
     font-weight: bold;
 
 }
+
+
 /* Selector del elemento al que le asignarás la imagen de fondo */
 .body {
   
