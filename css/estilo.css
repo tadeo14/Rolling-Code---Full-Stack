@@ -21,7 +21,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 .menu a  {
     text-decoration: none;
-    color: white; 
+    color: 282c37; 
     font-weight: bold;
 
 }
@@ -44,26 +44,46 @@ font-family: 'Open Sans', sans-serif; */
     font-family: 'Bricolage Grotesque', sans-serif;
     background-color: rgba(0, 128, 0, 0.6);
     padding: 10px;
+    height: 400px;
     
 }
-
+.header .audio{
+   float: right;
+   position: relative;
+   top: -50px;
+}
+img {
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+.lista {
+    border: 1px solid ;
+    margin: 10px;
+    list-style-type: disc; /* Crea puntos para la lista desordenada */
+}
 .aside {
-
+    display: block;
     width: 50%;
     height: 50%;    
+    border: solid 1px;
+    margin: 5px;
 }
 .h2{
-    color: white;
+    color: 282c37;
     font-family: 'Playfair Display', serif;
 }
 .main .p{
-    color: white;
+    color: 282c37;
     font-family: 'Open Sans', sans-serif;
     width: 600px;
     font-weight: 200;
 }
 .section {
-    color: whitesmoke;
+    color: 282c37;
 }
 .sectionImg .img1 {
     width: 50px;
