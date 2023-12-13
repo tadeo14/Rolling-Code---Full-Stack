@@ -126,17 +126,14 @@ font-family: 'Open Sans', sans-serif; */
     float: right;
 }
 .footer {
-    background-color: #6a301a;
-    
-}
-.footer .social {
-   position: relative;
-   left: 40%;
-    width: 100px;
-    fill: #06a1cb;
-    margin: 10px;
-    align-items: center;
-    text-align: center;
-        
-}
+    display: flex;
+    justify-content: center;
+    background-color: green;
+  }
 
+  .footer .social {
+    text-align: center; 
+    width: 100px;
+    fill: black;
+    margin: 30px;
+  }
