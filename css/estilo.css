@@ -6,19 +6,26 @@ font-family: 'Open Sans', sans-serif; */
 /*font-family: 'Playfair Display', serif;*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
 /*font-family: 'IBM Plex Sans', sans-serif;*/
-
+/*@media screen and (min-width: 480px) {
+    * {
+      background-color: rgb(8, 208, 8);
+    }
+  }*/
 * { 
 	box-sizing : border-box; 
 	margin : 0px;
 	padding : 0px;
+    
 }
+
 .header {
     position: relative;
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: rgba(0, 128, 0, 0.6);
+   
     padding-bottom: 100px;
-    height: 200px;  
+    height: 200px; 
+    max-width: 780px; 
    
       
 }
@@ -26,7 +33,7 @@ font-family: 'Open Sans', sans-serif; */
 #imgPerfil {    
     border-radius: 100%;
     position: absolute;
-    top: 10px;
+    top: 50px;
     left: 10px;
     width: 200px;
     height: auto;
@@ -40,10 +47,10 @@ font-family: 'Open Sans', sans-serif; */
 
 .main {
     padding-top: 50px;
-    background-color: #0877b8;
+    
 }
 .article {
-    background-color: #06a1cb;
+    
     list-style: disc;
     position: relative;
 }
@@ -73,21 +80,18 @@ font-family: 'Open Sans', sans-serif; */
 }
 /* Selector del elemento al que le asignarás la imagen de fondo */
 .body {
-  
-    /* Puedes ajustar el tamaño de la imagen */
-    background-size: cover;
-
-    /* Otras propiedades opcionales */
-    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-    background-position: center; /* Centra la imagen de fondo */
-    /* Puedes agregar más propiedades según tus necesidades */
+    display: flexbox;
+    align-content: center;
+    align-items: center;
+    max-width: 780px;
+    background-color: rgb(222, 93, 93);
 }
 .header .audio{
    float: right;
    position: relative;
    top: -50px;
 }.section {
-    background-color: #787772;
+    
     color: 282c37;
     width: 50%;
     border: 2px solid black;
@@ -102,7 +106,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .aside {
-    background-color: #ff758d;
+    
     display: block;
     width: 50%;
     height: 50%;    
@@ -110,6 +114,11 @@ font-family: 'Open Sans', sans-serif; */
     margin: 5px;
 }
 .h2{
+    max-width: 780px;
+    border: solid 1px;
+    display: flexbox;
+    align-content: center;
+    text-align: center;
     color: 282c37;
     font-family: 'Playfair Display', serif;
 }
@@ -119,6 +128,10 @@ font-family: 'Open Sans', sans-serif; */
     width: 600px;
     font-weight: 200;
 }
+.main .p b{
+    
+    font-weight: 600;
+}
 
 .sectionImg .img1 {
     width: 50px;
@@ -126,9 +139,11 @@ font-family: 'Open Sans', sans-serif; */
     float: right;
 }
 .footer {
+    display: flexbox;
+    text-align: center;
     display: flex;
     justify-content: center;
-    background-color: green;
+   
   }
 
   .footer .social {
