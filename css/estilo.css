@@ -13,16 +13,15 @@ font-family: 'Open Sans', sans-serif; */
   }*/
 * { 
 	box-sizing : border-box; 
-	margin : 0px;
-	padding : 0px;
+	
     
 }
 
 .header {
-    position: relative;
+    
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
-   
+    border: solid 1px;
     padding-bottom: 100px;
     height: 200px; 
     max-width: 780px; 
@@ -32,10 +31,10 @@ font-family: 'Open Sans', sans-serif; */
 
 #imgPerfil {    
     border-radius: 100%;
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    width: 200px;
+    position: relative;
+    top: -80px;
+    left: -200px;
+    width: 100px;
     height: auto;
 }
 #logoHTML {
@@ -80,11 +79,15 @@ font-family: 'Open Sans', sans-serif; */
 }
 /* Selector del elemento al que le asignarás la imagen de fondo */
 .body {
-    display: flexbox;
+    flex-flow: column nowrap;
+    display: flex;
     align-content: center;
     align-items: center;
-    max-width: 780px;
+    max-width: 100%;
     background-color: rgb(222, 93, 93);
+    justify-content: center;
+    border: solid 1px black;
+    
 }
 .header .audio{
    float: right;
@@ -106,7 +109,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .aside {
-    
+    border: solid 1px;
     display: block;
     width: 50%;
     height: 50%;    
