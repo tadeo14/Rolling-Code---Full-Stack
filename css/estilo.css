@@ -59,24 +59,7 @@ font-family: 'Open Sans', sans-serif; */
     list-style-type: disc;/* Crea puntos para la lista desordenada */
     margin-left: 20px; 
 }
-.header .menu {
-    position: absolute; /* Cambia la posición a absolute */
-    top: 100%; /* Posiciona el menu al final del header */
-    width: 100%;
-    list-style: none; /* Quita los marcadores de lista */
-    display: flex; /* Cambia el diseño a flexbox */
-    justify-content: space-around;
-    padding: 10px; /* Quita el relleno predeterminado de la lista */
-    background-color: black;
-    margin: 0;
-   
-}
-.menu a  {
-    text-decoration: none;
-    color: 282c37; 
-    font-weight: bold;
 
-}
 /* Selector del elemento al que le asignarás la imagen de fondo */
 .body {
     flex-flow: column nowrap;
@@ -87,6 +70,7 @@ font-family: 'Open Sans', sans-serif; */
     background-color: rgb(222, 93, 93);
     justify-content: center;
     border: solid 1px black;
+    margin: 0;
     
 }
 .header .audio{
@@ -154,4 +138,46 @@ font-family: 'Open Sans', sans-serif; */
     width: 100px;
     fill: black;
     margin: 30px;
+  }
+  .ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* Media query para pantallas de 600px o menos */
+  @media screen and (max-width: 600px) {
+    /* Cambios en el estilo del menú para pantallas pequeñas */
+    ul {
+      display: flex;
+     /* flex-direction: column; /* Cambia la dirección a columna */
+      position: fixed;
+      width: 100%;
+      background: green;
+      bottom: 0; /* Posiciona el menú en la parte inferior */
+    }
+
+    li {
+      width: 100%; /* Asegura que cada elemento li ocupe el 100% del ancho */
+      text-align: center; /* Centra el texto en cada elemento li */
+    }
   }
