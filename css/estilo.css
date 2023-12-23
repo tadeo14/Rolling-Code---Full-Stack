@@ -165,7 +165,7 @@ font-family: 'Open Sans', sans-serif; */
   }
 
   /* Media query para pantallas de 600px o menos */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
     /* Cambios en el estilo del menú para pantallas pequeñas */
     ul {
       display: flex;
