@@ -21,20 +21,27 @@ font-family: 'Open Sans', sans-serif; */
     
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
-    border: solid 1px;
+    
     padding-bottom: 100px;
     height: 200px; 
     max-width: 950px; 
    
       
 }
-
+.header p {
+    position: relative;
+    top: 100px;
+}
+.header h1 {
+    position: relative;
+    top: 100px;
+}
 #imgPerfil {    
-    border-radius: 100%;
+    
     position: relative;
     top: -80px;
-    left: -200px;
-    width: 100px;
+    left: -350px;
+    width: 200px;
     height: auto;
 }
 #logoHTML {
@@ -73,11 +80,7 @@ font-family: 'Open Sans', sans-serif; */
     margin: 0;
     
 }
-.header .audio{
-   float: right;
-   position: relative;
-   top: -50px;
-}.section {
+.section {
     
     color: 282c37;
     width: 100%;
