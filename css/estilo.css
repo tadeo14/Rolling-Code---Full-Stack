@@ -19,5 +19,7 @@ font-family: 'Roboto Slab', serif;*/
     
 }
 
-.icon-link .bi-github {    
-    
+.icon-link  {    
+	gap: 10px;
+	display: flex;
+}
