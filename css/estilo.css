@@ -24,6 +24,10 @@ font-family: 'Roboto Slab', serif;*/
 	font-family: 'Skyscapers';
 	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
 }
+.d-flex header {
+	padding-left: 50px;
+	padding-right: 50px;
+}
 hr {
 	display: none;
 }
