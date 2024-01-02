@@ -14,7 +14,9 @@ font-family: 'Roboto Slab', serif;*/
 @import "../node_modules/bootstrap/scss/bootstrap";
  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 * { 
-	box-sizing : border-box; 
+	box-sizing : border-box;
+	padding: 0;
+	margin: 0; 
 	
     
 }
@@ -22,7 +24,9 @@ font-family: 'Roboto Slab', serif;*/
 	font-family: 'Skyscapers';
 	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
 }
-
+hr {
+	display: none;
+}
 /* sample using the font */
 body{
 	font-family: 'Skyscapers';
