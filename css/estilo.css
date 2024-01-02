@@ -18,6 +18,15 @@ font-family: 'Roboto Slab', serif;*/
 	
     
 }
+@font-face {
+	font-family: 'Skyscapers';
+	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
+}
+
+/* sample using the font */
+body{
+	font-family: 'Skyscapers';
+}
 
 .icon-link  {    
 	gap: 10px;
